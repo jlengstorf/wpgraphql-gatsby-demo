@@ -1,0 +1,18 @@
+{
+  "install": {
+    "include": [
+      "^package.json$"
+    ]
+  },
+  "restart": {
+    "exclude": [
+      "^src/",
+      "^content/"
+    ],
+    "include": [
+      "^gatsby-config.js",
+      "^gatsby-node.js"
+    ]
+  },
+  "throttle": 1000
+}
