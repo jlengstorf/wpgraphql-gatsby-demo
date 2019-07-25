@@ -6,7 +6,8 @@
   "version": "0.0.1",
   "description": "A Gatsby site!",
   "scripts": {
-    "start": "gatsby develop"
+    "develop": "gatsby develop",
+    "build": "gatsby build"
   },
   "dependencies": {
     "gatsby": "^2.0.97",
